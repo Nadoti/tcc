@@ -1,6 +1,9 @@
-import './globals.css'
+import StyledComponentsRegistry from 'lib/registry'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import { GlobalStyles } from './styles/GlobalStyles'
+import { ThemeProvider } from 'styled-components'
+import { theme } from './styles/theme'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +19,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <StyledComponentsRegistry>
+          {children}
+          <GlobalStyles />
+        </StyledComponentsRegistry>
+      </body>
     </html>
   )
 }
+
+// https://play.tailwindcss.com/t8hoEfMek9
