@@ -25,38 +25,36 @@ export default function Home() {
               fill
             />
           </S.ImageStyle>
-          <div>
-            <div>
-              <h1>Encontre o menor preço. No menor tempo</h1>
+          <S.InfoSecondary>
+            <S.InfoMain>
+              <h1>Encontre o <span>menor</span> preço.<br/> No <span>menor</span> tempo.</h1>
               <p>Navegue na plataforma para encontrar diversos produtos com preços competitivos</p>
-            </div>
-            <div>
-              <S.ImageStyle >
+            </S.InfoMain>
+            <S.ContentSecondary>
+              <S.ImageStyleSecondary >
                 <Image 
                   src={foto2}
                   alt="foto2"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  className="w-full mx-auto flex items-center justify-center"
                   loading="lazy"
                   priority={false}
                   placeholder="empty"
                   fill
                 />
-              </S.ImageStyle>
-              <S.ImageStyle >
+              </S.ImageStyleSecondary>
+              <S.ImageStyleSecondary >
                 <Image 
                   src={foto3}
                   alt="foto3"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  className="w-full mx-auto flex items-center justify-center"
                   loading="lazy"
                   priority={false}
                   placeholder="empty"
                   fill
                 />
-            </S.ImageStyle>
-            </div>
-          </div>
+            </S.ImageStyleSecondary>
+            </S.ContentSecondary>
+          </S.InfoSecondary>
         </S.ContainerContent>
       </S.Container>
 
