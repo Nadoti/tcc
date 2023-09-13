@@ -7,8 +7,6 @@ export const GlobalStyles = createGlobalStyle`
   *::before,
   *::after {
     box-sizing: border-box;
-  }
-  body {
     padding: 0;
     margin: 0;
   }
