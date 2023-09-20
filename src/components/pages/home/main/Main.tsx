@@ -1,7 +1,7 @@
 import Image from "next/image";
-import foto1 from "../../../../../../public/foto1.png"
-import foto2 from "../../../../../../public/foto2.png"
-import foto3 from "../../../../../../public/foto3.png"
+import foto1 from "../../../../../public/foto1.png"
+import foto2 from "../../../../../public/foto2.png"
+import foto3 from "../../../../../public/foto3.png"
 import * as S from './styles'
 
 export function Main() {

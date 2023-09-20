@@ -8,6 +8,7 @@ export const theme: DefaultTheme = {
     primary: "#7E8129",
     secondary: "#F9F9E6",
 
+    "beige-700": "#676915",
     "beige-400": "#D1D2A7",
 
     "gray-700": "#484545",

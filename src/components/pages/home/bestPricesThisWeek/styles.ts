@@ -1,6 +1,4 @@
-import { styled } from "styled-components";
-
-
+import { styled } from "styled-components"
 
 export const Container = styled.section`
   width: 100%;
@@ -17,8 +15,8 @@ export const ContainerContent = styled.div`
   
   h2 {
     margin-bottom: 40px;
+    color: ${(props) => props.theme.colors?.["beige-700"]};
   }
 `
 
 export const CardContent = styled.div``
-// export const ContainerContent = styled.div``

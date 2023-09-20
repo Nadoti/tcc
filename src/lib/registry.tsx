@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import { useServerInsertedHTML } from 'next/navigation'
 import { ServerStyleSheet, StyleSheetManager, ThemeProvider } from 'styled-components'
-import { theme } from 'app/styles/theme'
+import { theme } from '@/styles/theme'
  
 export default function StyledComponentsRegistry({
   children,

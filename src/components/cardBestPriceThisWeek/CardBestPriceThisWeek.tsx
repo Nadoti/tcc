@@ -1,10 +1,9 @@
-"use client"
-import * as S from "./styles"
-import celular from "../../../../public/celular.png"
+import celular from "../../../public/bestPrice.png"
 import Image from "next/image"
 import Link from "next/link"
+import * as S from "./styles"
 
-export function CardSmartphone() {
+export function CardBestPriceThisWeek() {
 
   return (
     <S.Container>
@@ -13,7 +12,7 @@ export function CardSmartphone() {
       </S.Img>
       <S.InfoContent>
         <S.Title>Smartphone Xiaomi Redmi Note 12 4GB RAM 128GB Câmera Tripla</S.Title>
-        <S.DetailNameStore>Menor preço via Casas Bahia</S.DetailNameStore>
+        <S.DetailNameStore>Menor preço</S.DetailNameStore>
         <S.DetailsPrice>
           <span>R$ 999,99</span>
           <p>até 6x de R$ 166,66</p>

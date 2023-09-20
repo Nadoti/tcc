@@ -2,7 +2,7 @@
 import Link from "next/link";
 import * as S from './styles'
 import Image from "next/image";
-import logo from "../../../../public/logo.svg"
+import logo from "../../../public/logo.svg"
 import { BiSolidUser, BiSearchAlt2 } from "react-icons/bi";
 
 export function Header() {

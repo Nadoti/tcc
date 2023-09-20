@@ -1,9 +1,9 @@
 import StyledComponentsRegistry from 'lib/registry'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import { GlobalStyles } from './styles/GlobalStyles'
+import { GlobalStyles } from '../styles/GlobalStyles'
 import { ThemeProvider } from 'styled-components'
-import { theme } from './styles/theme'
+import { theme } from '../styles/theme'
 
 const inter = Inter({ subsets: ['latin'] })
 
